@@ -1,0 +1,162 @@
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(27, 27, 27);
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+.noevent
+{
+    pointer-events: none;
+    user-select: none;
+}
+.content
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 75%;
+    height: 100%;
+    margin: 0;
+    margin-left: auto;
+    margin-right: 0;
+    padding-left: 1em;  
+    padding-right: 6em;
+    padding-top: 3em;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: 400;
+    font-family: 'Rozha One', serif;
+}
+
+h1, h6{
+    line-height: 70%;
+}
+
+p{
+    font-size: 1.5em;
+}
+
+h1
+{
+    margin: 0;
+    font-size: 10em;
+    margin-bottom: 0.6em;
+}
+
+h2
+{
+    font-size: 3em;
+    margin-bottom: 0.3em;
+}
+
+li h3
+{
+    font-size: 2.2em;
+    margin-bottom: 0;
+}
+
+li p
+{
+    margin-top: 0.1em;
+}
+
+h6
+{
+    margin: 0;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+h6 strong
+{
+    font-weight: 500;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+nav{
+    max-width: 20%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    font-size: 2em;
+    padding-left: 1em;
+    padding-top: 1.7em;
+}
+
+nav h3
+{
+    margin-top: 0;
+    border-bottom: 0.1em solid rgb(27, 27, 27);
+}
+
+nav a
+{
+    color: rgb(27, 27, 27);
+    text-decoration: none;
+    font-weight: 400;
+    font-family: 'Rozha One', serif;
+    cursor: pointer;
+    border: 0px;
+    margin-bottom: 0.5em;
+}
+
+nav a:hover
+{
+    transition: 0.1s;
+    border-bottom: 0.1em solid rgb(27, 27, 27);
+}
+div.timeline
+{
+    padding-left: 3em;
+}
+div.timeline div
+{
+    margin: 0;
+    padding-left: 3em;
+    padding-bottom: 2em;
+    height: min-content;
+    border-left: 0.3em solid rgb(27, 27, 27);
+}
+div.timeline h4
+{
+    font-size: 2em;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+div.timeline p
+{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+div.timeline div.heading h4
+{
+    position: relative;
+    transform: translate(-3em,0);
+    padding: 0.3em;
+    background-color: white;
+    width: fit-content;
+    text-align: center;
+    border: 0.08em solid rgb(27, 27, 27);
+}
+
+img.timelineicon
+{
+    position: relative;
+    top: 0;
+    background-color: white;
+    border: 0.15em solid rgb(27, 27, 27);
+    width: 2.5em;
+    left: -4.6em;
+    top: 4em;
+}
